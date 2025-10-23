@@ -18,8 +18,6 @@ A robust, scalable data ingestion system that extracts COVID-19 case surveillanc
 - [Usage Examples](#usage-examples)
 - [Testing](#testing)
 - [Configuration](#configuration)
-- [Performance](#performance)
-- [Contributing](#contributing)
 
 ## 🏗️ High-Level Architecture
 
@@ -394,4 +392,5 @@ inter_request_delay = 0.7  # Delay between requests
 ```
 
 ## THANKYOU
+
 
