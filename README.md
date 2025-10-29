@@ -40,9 +40,9 @@ with engine.connect() as conn:
        print(row)
    ``` 
 
-## 5. Run the Transform and Visualization scripts
+## 5. Use the Transform and Visualization scripts
 
-`!python Covid19_Transform_visualize.ipynb`
+`python Covid19_Transform_visualize.ipynb`
 
 
 ## 6.Truncate the previously loaded data
@@ -54,4 +54,5 @@ engine = create\_engine(os.environ\["PG\_URL"], pool\_pre\_ping=True)
 with engine.begin() as conn:
    conn.execute(text("TRUNCATE TABLE covid\_case\_surveillance"))
 ```
+
 
